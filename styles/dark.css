@@ -9,4 +9,11 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --background-color: #000028;
+  --content__title-color: #FF0070;
+  --content__subtitle-color: #000028;
+  --content__subtitle-background: #FF0070;
+  --content__paragraph-color: #F1B2CE;
 }
+

@@ -2,3 +2,17 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+
+  --background-color: #000028;
+  --content__title-color: #FF0070;
+  --content__subtitle-color: #000028;
+  --content__subtitle-background: #FF0070;
+  --content__paragraph-color: #F1B2CE;
+
+  --font-size: 18px;
+
+  --section__margin-blok-end: 80px;
+  --section__padding-inline-side: 20px;
+}
