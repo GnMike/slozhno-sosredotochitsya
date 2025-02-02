@@ -15,7 +15,11 @@
   --font-size: 18px;
   --section__margin-blok-end: 80px;
   --section__padding-inline-side: 20px;
+  --link: #F1B2CE;
+  --link-shadow: #FF0070;
+  --link-outline: #F1B2CE;
   --visibility: hidden;
   --rectangle_padding: 20px;
   --rectangle_size: 25px;
+  --button-outline-color: #FF0070;
 }

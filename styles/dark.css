@@ -15,9 +15,13 @@
     --content__subtitle-color: #000028;
     --content__subtitle-background: #FF0070;
     --content__paragraph-color: #F1B2CE;
+    --link: #F1B2CE;
+    --link-shadow: #FF0070;
+    --link-outline: #F1B2CE;
     --visibility: visible;
     --rectangle_padding: 20px;
     --rectangle_size: 25px;
+    --button-outline-color: #FF0070;
   }
 }
 
@@ -34,7 +38,11 @@
   --content__subtitle-color: #000028;
   --content__subtitle-background: #FF0070;
   --content__paragraph-color: #F1B2CE;
+  --link: #F1B2CE;
+  --link-shadow: #FF0070;
+  --link-outline: #F1B2CE;
   --visibility: visible;
   --rectangle_padding: 20px;
   --rectangle_size: 25px;
+  --button-outline-color: #FF0070;
 }

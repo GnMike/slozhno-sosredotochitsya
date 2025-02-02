@@ -15,9 +15,13 @@
     --content__subtitle-color: #353430;
     --content__subtitle-background: #FF8DCB;
     --content__paragraph-color: #353430;
+    --link: #FF0070;
+    --link-shadow: #FF8DCB;
+    --link-outline: #353430;
     --visibility: hidden;
     --rectangle_padding: 20px;
     --rectangle_size: 25px;
+    --button-outline-color: rgb(50 49 45 / 0.4);
   }
 }
 
@@ -34,7 +38,11 @@
   --content__subtitle-color: #353430;
   --content__subtitle-background: #FF8DCB;
   --content__paragraph-color: #353430;
+  --link: #353430;
+  --link-shadow: #FF8DCB;
+  --link-outline: #353430;
   --visibility: hidden;
   --rectangle_padding: 20px;
   --rectangle_size: 25px;
+  --button-outline-color: rgb(50 49 45 / 0.4);
 }
