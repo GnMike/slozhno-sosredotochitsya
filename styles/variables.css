@@ -4,15 +4,18 @@
 */
 
 :root {
-
-  --background-color: #000028;
+  --background: #000028 url("../images/cover-image-dark.png") no-repeat center / cover fixed;
+  --accent-color: #FF0070;
+  --rectangle-color:#FF0070;
+  --header__title-color: #DB00FF;
   --content__title-color: #FF0070;
   --content__subtitle-color: #000028;
   --content__subtitle-background: #FF0070;
   --content__paragraph-color: #F1B2CE;
-
   --font-size: 18px;
-
   --section__margin-blok-end: 80px;
   --section__padding-inline-side: 20px;
+  --visibility: hidden;
+  --rectangle_padding: 20px;
+  --rectangle_size: 25px;
 }
