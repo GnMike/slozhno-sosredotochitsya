@@ -117,7 +117,7 @@ a:focus-visible {
 
 /* ------------  section & decoration zone 375 ------------ */
 
-@media (width < 576px) {
+@media (width < 688px) {
 
   .content-section {
     padding: 0 10px;
@@ -201,7 +201,7 @@ a:focus-visible {
 
 /* ----------------------- header 375 --------------------- */
 
-@media (width < 576px) {
+@media (width < 688px) {
 
   .header {
     grid-template-columns: 1fr;
@@ -269,7 +269,7 @@ a:focus-visible {
 
 /* ----------------------- intro 375 --------------------- */
 
-@media (width < 576px) {
+@media (width < 688px) {
 
   .intro {
     grid-template-columns: 1fr;
@@ -327,7 +327,7 @@ a:focus-visible {
 
 /* ----------------------- reasons 375 ---------------------- */
 
-@media (width < 576px) {
+@media (width < 688px) {
 
   .reasons {
     display: grid;
@@ -387,7 +387,7 @@ a:focus-visible {
 
 /* ----------------------- how-to 375 ---------------------- */
 
-@media (width < 576px) {
+@media (width < 688px) {
 
   .how-to {
     display: grid;
@@ -448,7 +448,7 @@ a:focus-visible {
 
 /* ----------------------- pictures 375 -------------------- */
 
-@media (width < 576px) {
+@media (width < 688px) {
 
   .pictures {
     display: grid;
@@ -523,7 +523,7 @@ a:focus-visible {
   }
 }
 
-@media (width < 576px) {
+@media (width < 688px) {
 
   .footer {
     display: flex;
