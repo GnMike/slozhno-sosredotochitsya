@@ -37,6 +37,10 @@
   pointer-events: none;
 }
 
+p:not(:last-child, .title-decor) {
+  margin-block-end: 20px;
+}
+
 a {
   color: var(--link);
   text-shadow: 2px 2px 0 var(--link-shadow);

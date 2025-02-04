@@ -19,5 +19,5 @@
   --visibility: hidden;
   --rectangle-padding: 20px;
   --rectangle-size: 25px;
-  --button-outline-color: #FF0070;
+  --button-outline-color: rgb(255 0 112 / 0.4);
 }
