@@ -1,4 +1,5 @@
 /* ----------------------- body ---------------------------- */
+
 .page {
   font-family: IBM Plex Mono, monospace;
   font-size: var(--font-size);
@@ -486,7 +487,6 @@ a:focus-visible {
 /* ----------------------- footer 1024 --------------------- */
 
 .footer {
-  --section__padding-inline-side: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
