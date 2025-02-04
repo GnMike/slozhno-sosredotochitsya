@@ -168,6 +168,9 @@ a:focus-visible {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  min-block-size: 668px;
+  block-size: 100vh;
+  margin-block-end: 60px;
 }
 
 .header__theme-menu {
