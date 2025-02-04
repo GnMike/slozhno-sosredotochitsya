@@ -74,6 +74,7 @@ a:focus-visible {
 
 /* ----------------------- card ---------------------------- */
 
+.intro .card:not(:last-of-type),
 .how-to .card:not(:last-of-type) {
   margin-block-end: 20px;
 }
