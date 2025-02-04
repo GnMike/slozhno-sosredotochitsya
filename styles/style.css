@@ -156,7 +156,10 @@ a:focus-visible {
   block-size: 1em;
   inset-inline-start: 2em;
   inset-block-start: 0.03em;
-  background-image: url("../images/ellipse4.svg");
+/*  border-radius: 50%;*/                                                            /* ------------------  */
+
+  /*  background-image: url("../images/ellipse4.svg");*/
+/*  box-shadow: 2px 2px 0 0 var(--link-shadow);*/
 }
 
 /* ----------------------- header 1024 --------------------- */
@@ -357,11 +360,13 @@ a:focus-visible {
   .record::after {
     content: "";
     position: absolute;
-    inline-size: 1em;
-    block-size: 1em;
-    inset-inline-start: 2em;
-    inset-block-start: 0.03em;
-    background-image: url("../images/ellipse4.svg");
+    inline-size: 9px;
+    block-size: 9px;
+    inset-inline-start: 42px;
+    inset-block-start: 7px;
+    background-color: #ff0070;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px #ff0070;                                             /*  <-- при оптимизации использовать только этот record !!! */
   }
 }
 
