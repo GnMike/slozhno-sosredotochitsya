@@ -134,7 +134,6 @@ a:focus-visible {
   grid-template-rows: repeat(6, 1fr);
   min-block-size: 668px;
   block-size: 100vh;
-  margin-block-start: 0px;
 }
 
 .header__theme-menu {
@@ -206,7 +205,6 @@ a:focus-visible {
   .header {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10, 1fr);
-    margin-block-start: 0px;
   }
   
   .header__theme-menu {
@@ -493,9 +491,10 @@ a:focus-visible {
   justify-content: center;
   align-items: center;
   inline-size: 100%;
-  aspect-ratio: 4 / 3;
   margin-block-start: 60px;
   position: relative;
+  min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .footer .title {
@@ -509,14 +508,12 @@ a:focus-visible {
 @media (width < 992px) {
 
   .footer {
-    --section__padding-inline-side: 10px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     inline-size: 100%;
     aspect-ratio: 3 / 4;
-        position: relative;
+    position: relative;
   }
   
   .footer .title {
@@ -533,10 +530,9 @@ a:focus-visible {
     justify-content: center;
     align-items: center;
     inline-size: 100%;
-    aspect-ratio: 375 / 668;
     margin-block-start: 40px;
     position: relative;
-  }
+ }
   
   .footer .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
