@@ -76,7 +76,7 @@
 
 a {
   color: var(--link);
-  text-shadow: 1px 1px 0 var(--link-shadow);
+  text-shadow: 2px 2px 0 var(--link-shadow);
   text-decoration: none;
 }
 a:hover {
