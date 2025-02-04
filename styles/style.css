@@ -132,6 +132,10 @@ a:focus-visible {
   color: var(--content__paragraph-color);
 }
 
+.how-to .title-decor {
+  margin-block-end: 20px;
+}
+
 /* ----------------------- label record--------------------- */
 .record {
   visibility: var(--visibility);
