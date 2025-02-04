@@ -80,9 +80,8 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration-color: var(--link-outline);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  border-block-end: 1px solid var(--button-outline-color);
+  outline: none;
 }
 
 a:focus-visible {
