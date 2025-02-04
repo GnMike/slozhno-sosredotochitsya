@@ -98,14 +98,14 @@ a:focus-visible {
 /* ----------------------- title --------------------------- */
 
 .title {
-  color: var(--content__title-color);
+  color: var(--content-title-color);
   font-size: var(--font-size);
   font-weight: 700;
 }
 
 .title-decor {
-  color: var(--content__subtitle-color);
-  background-color: var(--content__subtitle-background);
+  color: var(--content-subtitle-color);
+  background-color: var(--content-subtitle-background);
   font-size: var(--font-size);
   font-weight: 700;
 }
@@ -117,8 +117,8 @@ a:focus-visible {
 }
 
 .card__title {
-  color: var(--content__subtitle-color);
-  background-color: var(--content__subtitle-background);
+  color: var(--content-subtitle-color);
+  background-color: var(--content-subtitle-background);
   font-size: var(--font-size);
   font-weight: 700;
   margin-block-end: 10px;
@@ -129,7 +129,7 @@ a:focus-visible {
 }
 
 .card__paragraph {
-  color: var(--content__paragraph-color);
+  color: var(--content-paragraph-color);
 }
 
 .how-to .title-decor {
@@ -200,7 +200,7 @@ a:focus-visible {
 
 .header .title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  color: var(--header__title-color);
+  color: var(--header-title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
   margin-left: -20px;
   line-height: 1em;
@@ -247,7 +247,7 @@ a:focus-visible {
   
   .header .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    color: var(--header__title-color);
+    color: var(--header-title-color);
     text-shadow: 4px 4px 0 var(--accent-color);
     margin-left: -20px;
     line-height: 99px;
@@ -303,14 +303,14 @@ a:focus-visible {
   
   .header .title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    color: var(--header__title-color);
+    color: var(--header-title-color);
     text-shadow: 4px 4px 0 var(--accent-color);
     margin-left: 0px;
     line-height: 0.84em;
   }
 
   .decorated-zone {
-    --rectangle_padding: 10px;
+    --rectangle-padding: 10px;
     aspect-ratio: 375 / 668;
     padding: 10px;
 /*    margin-block-end: 40px;*/
@@ -320,10 +320,10 @@ a:focus-visible {
   .decorated-zone::before {
     content: "";
     position: absolute;
-    inset-block-end: var(--rectangle_padding);
-    inset-inline-start: var(--rectangle_padding);
-    inline-size: var(--rectangle_size);
-    block-size: var(--rectangle_size);
+    inset-block-end: var(--rectangle-padding);
+    inset-inline-start: var(--rectangle-padding);
+    inline-size: var(--rectangle-size);
+    block-size: var(--rectangle-size);
     border: none;
     border-block-end: 1px solid var(--rectangle-color);
     border-inline-start: 1px solid var(--rectangle-color);
@@ -332,10 +332,10 @@ a:focus-visible {
   .decorated-zone::after {
     content: "";
     position: absolute;
-    inset-block-start: var(--rectangle_padding);
-    inset-inline-end: var(--rectangle_padding);
-    inline-size: var(--rectangle_size);
-    block-size:  var(--rectangle_size);
+    inset-block-start: var(--rectangle-padding);
+    inset-inline-end: var(--rectangle-padding);
+    inline-size: var(--rectangle-size);
+    block-size:  var(--rectangle-size);
     border: none;
     border-block-start: 1px solid var(--rectangle-color);
     border-inline-end: 1px solid var(--rectangle-color);
@@ -639,7 +639,7 @@ a:focus-visible {
 
 .footer .title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  color: var(--header__title-color);
+  color: var(--header-title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
@@ -688,7 +688,7 @@ a:focus-visible {
   
   .footer .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    color: var(--header__title-color);
+    color: var(--header-title-color);
     text-shadow: 2px 2px 0 var(--accent-color);
   }
 }
@@ -698,7 +698,7 @@ a:focus-visible {
   .footer {
     --section__padding-inline-side: 10px;
 /*    --section__margin-blok-end: 40px;*/
-    --rectangle_padding: 10px;
+    --rectangle-padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -711,7 +711,7 @@ a:focus-visible {
   
   .footer .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    color: var(--header__title-color);
+    color: var(--header-title-color);
     text-shadow: 2px 2px 0 var(--accent-color);
   }
 
@@ -720,10 +720,10 @@ a:focus-visible {
   .footer::before {
     content: "";
     position: absolute;
-    inset-block-end: var(--rectangle_padding);
-    inset-inline-start: var(--rectangle_padding);
-    inline-size: var(--rectangle_size);
-    block-size: var(--rectangle_size);
+    inset-block-end: var(--rectangle-padding);
+    inset-inline-start: var(--rectangle-padding);
+    inline-size: var(--rectangle-size);
+    block-size: var(--rectangle-size);
     border: none;
     border-block-end: 1px solid var(--rectangle-color);
     border-inline-start: 1px solid var(--rectangle-color);
@@ -732,10 +732,10 @@ a:focus-visible {
   .footer::after {
     content: "";
     position: absolute;
-    inset-block-start: var(--rectangle_padding);
-    inset-inline-end: var(--rectangle_padding);
-    inline-size: var(--rectangle_size);
-    block-size: var(--rectangle_size);
+    inset-block-start: var(--rectangle-padding);
+    inset-inline-end: var(--rectangle-padding);
+    inline-size: var(--rectangle-size);
+    block-size: var(--rectangle-size);
     border: none;
     border-block-start: 1px solid var(--rectangle-color);
     border-inline-end: 1px solid var(--rectangle-color);
