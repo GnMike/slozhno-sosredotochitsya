@@ -12,12 +12,13 @@
   --content-subtitle-color: #000028;
   --content-subtitle-background: #FF0070;
   --content-paragraph-color: #F1B2CE;
-  --font-size: 18px;
   --link: #F1B2CE;
   --link-shadow: #FF0070;
-  --link-outline: #F1B2CE;
-  --visibility: hidden;
+  --button-color: #FF0070;
+  --button-color-hover: rgb(255 0 112 / 0.4);
+  --button-color-focus: #FF0070;
+  --font-size: 18px;
+  --visibility: visibility;
   --rectangle-padding: 20px;
   --rectangle-size: 25px;
-  --button-outline-color: rgb(255 0 112 / 0.4);
 }

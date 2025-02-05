@@ -17,11 +17,12 @@
     --content-paragraph-color: #353430;
     --link: #353430;
     --link-shadow: #FF8DCB;
-    --link-outline: #353430;
+    --button-color: #353430;
+    --button-color-hover: rgb(50 49 45 / 0.4);
+    --button-color-focus: #353430;
     --visibility: hidden;
     --rectangle-padding: 20px;
     --rectangle-size: 25px;
-    --button-outline-color: rgb(50 49 45 / 0.4);
   }
 }
 
@@ -40,9 +41,10 @@
   --content-paragraph-color: #353430;
   --link: #353430;
   --link-shadow: #FF8DCB;
-  --link-outline: #353430;
+  --button-color: #353430;
+  --button-color-hover: rgb(50 49 45 / 0.4);
+  --button-color-focus: #353430;
   --visibility: hidden;
   --rectangle-padding: 20px;
   --rectangle-size: 25px;
-  --button-outline-color: rgb(50 49 45 / 0.4);
 }
