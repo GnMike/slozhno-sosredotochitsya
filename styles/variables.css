@@ -2,3 +2,23 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --background: #000028 url("../images/cover-image-dark.png") no-repeat center / cover fixed;
+  --accent-color: #FF0070;
+  --rectangle-color:#FF0070;
+  --header-title-color: #DB00FF;
+  --content-title-color: #FF0070;
+  --content-subtitle-color: #000028;
+  --content-subtitle-background: #FF0070;
+  --content-paragraph-color: #F1B2CE;
+  --link: #F1B2CE;
+  --link-shadow: #FF0070;
+  --button-color: #FF0070;
+  --button-color-hover: rgb(255 0 112 / 0.4);
+  --button-color-focus: #FF0070;
+  --font-size: 18px;
+  --visibility: visibility;
+  --rectangle-padding: 20px;
+  --rectangle-size: 25px;
+}
